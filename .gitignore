@@ -1,0 +1,10 @@
+# Essential for npm/Tailwind projects
+node_modules/
+dist/
+build/
+.tailwindcss/
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vscode/
