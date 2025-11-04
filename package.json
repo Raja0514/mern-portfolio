@@ -1,0 +1,14 @@
+{
+  "name": "mern-portfolio",
+  "version": "1.0.0",
+  "description": "MERN Stack Developer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "dev": "npm run build-css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.0"
+  }
+}
